@@ -15,6 +15,6 @@ class Dog: public Animal{
 int main(void){
     Dog d = Dog();
     d.eat();
-    d.Animal::eat();
+    d.Animal::eat();x
     return 0;
 }

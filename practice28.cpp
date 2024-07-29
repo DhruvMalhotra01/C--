@@ -19,7 +19,7 @@ public:
     }
 
     void operator+() {
-        // Unary plus operator (no change needed)
+       n = -n; // Unary plus operator (no change needed)
     }
 };
 
